@@ -1813,7 +1813,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/footer-bg.jpg") 15% 23%/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
@@ -2151,6 +2151,7 @@ a:focus {
 --------------------------------------------------------------*/
 .count-down-section {
   position: relative;
+  background-position: 50% -25%;
 }
 .count-down-section:before {
   content: "";
