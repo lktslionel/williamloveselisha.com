@@ -2944,6 +2944,7 @@ a:focus {
 --------------------------------------------------------------*/
 .rsvp-section {
   position: relative;
+  background-color: rgb(17, 24, 39);
 }
 .rsvp-section:after {
   content: "";
@@ -3584,6 +3585,11 @@ a:focus {
 }
 .blog-details-content .comment-respond .comment-form .submit-btn button {
   border-radius: 0;
+}
+
+.img-holder .we-brides-img {
+  height: 285px;
+  width: 360px;
 }
 
 /*# sourceMappingURL=style.css.map */

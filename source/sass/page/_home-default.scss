@@ -956,8 +956,8 @@
 --------------------------------------------------------------*/
 .rsvp-section {
 	position: relative;
-	//text-align: center;
-
+	background-color: rgb(17, 24, 39);
+	
 	&:after {
 		content: "";
 		@include overlay(transparentize($black, 0.4));
