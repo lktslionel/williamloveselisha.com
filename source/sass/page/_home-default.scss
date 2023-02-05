@@ -471,9 +471,13 @@
 	position: relative;
 	text-align: center;
 
+	background-position: 50% -311px;
+	background-image: url("../images/cta-bg.jpeg");
+	background-size: cover;
+
 	&:before {
 		content: "";
-		@include overlay(transparentize($black, 0.45));
+		@include overlay(transparentize($black, 0.65));
 	}
 
 	h2 {
@@ -957,7 +961,7 @@
 .rsvp-section {
 	position: relative;
 	background-color: rgb(17, 24, 39);
-	
+
 	&:after {
 		content: "";
 		@include overlay(transparentize($black, 0.4));
