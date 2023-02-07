@@ -3599,7 +3599,7 @@ a:focus {
   display: block;
   position: absolute;
   top: 30px;
-  left: 230px;
+  left: 175px;
 }
 @media (max-width: 767px) {
   .x-locatlization {
