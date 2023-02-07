@@ -3595,4 +3595,26 @@ a:focus {
   width: 360px;
 }
 
+.x-locatlization {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 230px;
+}
+@media (max-width: 767px) {
+  .x-locatlization {
+    top: 0px;
+    left: 150px;
+  }
+}
+.x-locatlization .x-lang {
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+.x-locatlization .x-lang svg {
+  width: 30px;
+  height: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -63,3 +63,28 @@ URL:            http://themeforest.net/user/themexriver
   height: 285px;
   width: 360px;
 }
+
+$flag-size: 30px;
+
+.x-locatlization {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 230px;
+
+  @include media-query(767px) {
+    top:  0px;
+    left: 150px;
+  }
+
+  .x-lang {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    
+    svg{
+      width: $flag-size;
+      height: $flag-size;
+    }
+  }
+}
